@@ -1,0 +1,38 @@
+input[type=image]
+{
+    width:10%;
+  
+    
+}
+h1
+{
+    
+    text-align:center;
+    color:lightblue;
+
+}
+
+.jobbold
+{
+    grid-area:j;
+}
+.baloldal
+{
+    grid-area:b;
+}
+.fotartalom
+{
+    grid-area:ft;
+    display:grid;
+    grid-template-areas:
+        'b b j j '
+        'a a a a ';
+    background-color:lightblue;
+    margin:auto;
+    width:80%;
+}
+.also
+{
+    grid-area:a;
+}
+
